@@ -10,6 +10,7 @@ Real-time monitoring via cloud
 Remote control using WiFi (NodeMCU)
 Reliable communication using RS485
 Low-cost and scalable system
+
 🛠️ Components Used
 Arduino Nano
 NodeMCU (ESP8266)
@@ -18,6 +19,7 @@ HX711 Amplifier Module
 RS485 Module
 Water Pump / Motor
 Power Supply
+
 ⚙️ Working Principle
 The load cell measures the weight of the container.
 HX711 converts the analog signal into digital form.
@@ -25,12 +27,8 @@ Arduino Nano processes the data and controls the system.
 The motor/pump dispenses water until the desired weight is reached.
 NodeMCU sends data to the cloud for monitoring and control.
 
-🧩 Block Diagram
-Refer in connection diagram folder.
-🔌 Circuit Diagram
-Refer in connection diagram folder.
-
 🏗️ System Architecture
+
 Sensing Layer: Load Cell + HX711
 Processing Layer: Arduino Nano
 Communication Layer: RS485
@@ -51,21 +49,24 @@ IoT-Water-Dispenser-System/
 │   ├── report/
 │
 └── README.md
+
 📊 Applications
 Water vending machines
 Industrial liquid dispensing
 Smart home automation
 Automated filling systems
+
 📈 Future Scope
 Mobile app integration
 Payment-based water dispensing
 AI-based usage monitoring
 Solar-powered system
+
 🧠 Technologies Used
 Embedded Systems
 IoT (Internet of Things)
 RS485 Communication
 Cloud Integration
-👨‍💻 Author
 
+👨‍💻 Author
 Mahesh Phand
